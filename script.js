@@ -59,7 +59,7 @@ const translations = {
                 period: "Jan 2024 - Apr 2024",
                 role: "Intern Frontend Developer",
                 company: "XUAN THANH PHAT TECHNOLOGY DEVELOPMENT INVESTMENT JOINT STOCK COMPANY",
-                body: "Participate in and develop a company website as a team using WordPress.",
+                list: "Participate in and develop a company website as a team using WordPress.",
             },
             item3: {
                 period: "Sep 2023 - Nov 2023",
@@ -116,7 +116,7 @@ const translations = {
                 period: "1/2024 - 4/2024",
                 role: "Thực tập sinh Frontend Developer",
                 company: "CÔNG TY CỔ PHẦN ĐẦU TƯ PHÁT TRIỂN CÔNG NGHỆ XUÂN THÀNH PHÁT",
-                body: "Tham gia và phối hợp cùng với mọi người xây dựng website bằng Wordpress.",
+                list: "Tham gia và phối hợp cùng với mọi người xây dựng website bằng Wordpress.",
             },
             item3: {
                 period: "9/2023 - 11/2023",
