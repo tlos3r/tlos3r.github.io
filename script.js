@@ -22,6 +22,7 @@ const translations = {
         home: {
             title: "Do Van Tien",
             intro: "Just a guy looking to be better than yesterday.",
+            projects: "Projects",
             cta: "View projects",
             cta2: "Experience",
             time: "Year of Experience",
@@ -80,6 +81,7 @@ const translations = {
             title: "Đỗ Văn Tiến",
             intro: "Một chàng trai đang cố gắng trở nên tốt hơn ngày hôm qua.",
             cta: "Dự án đã làm",
+            projects: "Dự án",
             cta2: "Kinh nghiệm",
             time: "Năm kinh nghiệm",
         },
