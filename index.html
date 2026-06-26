@@ -6,6 +6,8 @@
         <link rel="apple-touch-icon" sizes="180x180" href="./favicon_io/apple-touch-icon.png" />
         <link rel="icon" type="image/png" sizes="32x32" href="./favicon_io/favicon-32x32.png" />
         <link rel="icon" type="image/png" sizes="16x16" href="./favicon_io/favicon-16x16.png" />
+        <meta name="referrer" content="always" />
+
         <script src="https://cdn.tailwindcss.com"></script>
         <script>
             tailwind.config = {
@@ -295,7 +297,7 @@
                             </div>
 
                             <div
-                                class="mx-auto mt-8 grid max-w-[520px] grid-cols-2 divide-x divide-[#00ADB5]/30 rounded-md border border-[#00ADB5]/30 dark:divide-[#1f1f1f] dark:border-[#1f1f1f] md:mx-0"
+                                class="mx-auto mt-8 grid max-w-[520px] grid-cols-3 divide-x divide-[#00ADB5]/30 rounded-md border border-[#00ADB5]/30 dark:divide-[#1f1f1f] dark:border-[#1f1f1f] md:mx-0"
                             >
                                 <div class="p-4">
                                     <p class="font-sans text-2xl font-extrabold text-[#222831] dark:text-[#a6e22e]">
@@ -317,6 +319,18 @@
                                         data-i18n="home.time"
                                     >
                                         Year
+                                    </p>
+                                </div>
+                                <div class="p-4">
+                                    <p
+                                        id="view-count"
+                                        class="font-sans text-2xl font-extrabold text-[#222831] dark:text-[#a6e22e]"
+                                    ></p>
+                                    <p
+                                        class="mt-1 font-mono text-xs text-[#393E46] dark:text-[#8b8b8b]"
+                                        data-i18n="home.clients"
+                                    >
+                                        Views
                                     </p>
                                 </div>
                             </div>

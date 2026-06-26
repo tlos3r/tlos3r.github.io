@@ -10,6 +10,8 @@ const translatableElements = document.querySelectorAll("[data-i18n]");
 let currentLanguage = "en";
 let currentView = "home";
 let switchTimer = null;
+const SCRIPT_URL =
+    "https://script.google.com/macros/s/AKfycbzP1uNMPD4lYNuHjjyF36x39CL3a5yddZ1P93_y-orBsZfOEjHMLjKL23buBLOpof5-/exec";
 
 const translations = {
     en: {
@@ -235,3 +237,10 @@ setActiveLink(currentView);
 translatePage(currentLanguage);
 moonIcon.classList.toggle("hidden", document.documentElement.classList.contains("dark"));
 sunIcon.classList.toggle("hidden", !document.documentElement.classList.contains("dark"));
+
+fetch(SCRIPT_URL)
+    .then((res) => res.json())
+    .then((data) => {
+        document.getElementById("view-count").textContent = data.views;
+    })
+    .catch(console.error);
